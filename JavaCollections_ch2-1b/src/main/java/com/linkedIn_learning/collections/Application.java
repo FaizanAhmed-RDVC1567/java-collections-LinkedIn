@@ -16,5 +16,6 @@ public class Application {
         // to invoke the methods from the object that implemented that interface.
         contract.term1();
         contract.term2();
+        contract.extendedTerm();
     }
 }
