@@ -11,4 +11,9 @@ public class Implementation implements Contract{
     public void term2(){
         System.out.println("Implementation:term2");
     }
+
+    @Override
+    public void extendedTerm() {
+        System.out.println("Implementation:extended");
+    }
 }
